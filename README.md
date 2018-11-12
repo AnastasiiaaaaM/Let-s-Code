@@ -1,6 +1,6 @@
 <img src="./logo.png" width="400">
 
-## Lets's Code
+## Let's Code
 
 Coding Academy
 
