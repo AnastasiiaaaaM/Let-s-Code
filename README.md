@@ -1,3 +1,5 @@
+<img src="./logo.png" width="400">
+
 ## Lets's Code
 
 Coding Academy
