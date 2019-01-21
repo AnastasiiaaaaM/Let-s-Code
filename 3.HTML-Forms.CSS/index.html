@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Now I know my HTML. So let's play with CSS!</title>
+</head>
+<body>
+    <h1>Simple form</h1>
+
+<form>
+    <input>
+    <input type="submit" value="submit">
+</form>
+
+
+    <h2>Simple form 2</h2>
+
+<form>
+    <input name="query">
+    <input type="submit" value="submit">
+</form>
+
+    <h2>Form types</h2>
+
+<form>
+    User Name: <input type="text" name="user-name">
+    <br>
+    Email: <input type="email" name="email">
+    <br>
+    Tel.: <input type="number" name="user-name">
+    <br>
+    Date of birth: <input type="date" name="date-of-birth">
+    <br>
+    Comments:
+    <br><textarea name="comments"></textarea>
+    <br>
+    <input type="submit" value="submit">
+</form>
+
+    <h2>Form GET/POST</h2>
+
+<form method="post" action="results.html">
+    User Name: <input type="text" name="user-name">
+    <input type="submit" value="submit">
+</form>
+
+    <h2>Form options</h2>
+
+<form method="post" action="results.html">
+    Occupation:
+    <select id="occupation" name="occupation">
+        <option value="dev">Developer</option>
+        <option value="design">Designer</option>
+        <option value="consult">Consultant</option>
+        <option value="manager">Manager</option>
+        <option value="other" selected>Other</option>
+    </select>
+    <br>
+    <br>
+    Gender:
+    <input type="radio" id="male" name="gender" value="male">Male
+    <input type="radio" id="female" name="gender" value="male" checked>Female
+    <br>
+    <br>
+    Pets:
+    <input type="checkbox" id="pet1" name="pet" value="cat">Cat
+    <input type="checkbox" id="pet2" name="pet" value="dog">Dog
+    <input type="checkbox" id="pet3" name="pet" value="perrot">Perrot
+    <input type="checkbox" id="pet4" name="pet" value="other" checked>Other
+    <br>
+    <br>
+    <input type="submit" value="submit">
+</form>
+
+</body>
+</html>
