@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>6. Web Animations</title>
+    <style>
+        div{
+            width: 250px;
+            height: 250px;
+            border: 5px solid greenyellow;
+            margin: 20px 100px;
+        }
+        .transitionAnimation{
+            transition: width 2s;
+        }
+        .transitionAnimation:hover{
+            width: 150px;
+            height: 150px;
+            transition: width 2s;
+        }
+        nav li{
+            font-size: 30px;
+            display: inline-block;
+            list-style: none;
+            padding: 0 10px;
+        }
+        nav a{
+            color: black;
+            transition: color 0.5s ease-in;
+        }
+        nav a:hover{
+            color: greenyellow;
+            transition: color 0.5s ease-in;
+        }
+
+        .transformAnimation{
+            transition: transform 0.5s;
+        }
+        .transformAnimation:hover{
+            transform: rotate(180deg);
+            transition: transform 0.5s;
+        }
+        /*
+        .transformAnimation:hover{
+            transform: skew(20deg,20deg);
+            transition: transform 0.5s;
+        }
+        */
+        .divAnimation{
+            position: relative;
+            animation: mymove 5s infinite;
+            -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+        }
+
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes mymove {
+            from {left: 0;}
+            to {left: 70%;}
+        }
+
+        @keyframes mymove {
+            from {left: 0;}
+            to {left: 70%;}
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#" >Home</a></li>
+            <li><a href="#" >About</a></li>
+            <li><a href="#" >Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="transitionAnimation"></div>
+
+    <div class="transformAnimation"></div>
+
+    <div class="divAnimation"></div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: #ffffff;
+    border-top: 10px solid #006341;
+    padding: 12px 20px;
+}
+.logo{
+    float: left;
+}
+.nav{
+    text-align: right;
+}
+.nav a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}

@@ -21,12 +21,12 @@ h1{
 /* Styling Div: background, border, margin, padding */
 
 .my-div{
-    width: 500px;
+    width: 1000px;
     height: 300px;
 
     background-image: url("images/cat.png");
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: bottom right;
     background-size: contain;
 
   /*  border: 5px solid black;  */
